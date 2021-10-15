@@ -1,0 +1,434 @@
+
+.assur {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;    
+    width: 65%;
+    background-color: beige;
+    
+}
+
+.bastexte{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    padding-left: 18%;
+}
+.img{
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    width: 70%;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+.texte1{
+    background-color: beige;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 175%;
+}
+
+.texte2{
+    display: flex;
+    justify-content: left;
+    background-color: beige;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 175%;
+    margin: auto;
+    width: 67%;
+}
+.img2{
+    display: flex;
+    justify-content: right;
+    width: 70%;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+.bodyy{
+    background-color: beige;
+}
+.texte99{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3%;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.csstout{
+    background-color: beige;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-bottom: 8%;
+}
+
+.imgequipe1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4%;
+}
+
+.texteequipe1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 100%;
+    padding-top: 1%;
+}
+
+.textetiago{
+    background-color: black;
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+
+}
+.textesandro{
+    background-color: black;    
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+}
+.textepablo{
+    background-color: black;
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgequipe2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    
+}
+
+.texteequipe2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+
+.textemiguel{
+    background-color: black;    
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+}
+
+.texterodrigo{
+    background-color: black;    
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+}
+
+.textelivia{
+    background-color: black;    
+    color: beige;
+    width: 17.8%;
+    display: flex;
+    justify-content: center;
+}
+.shox{
+    background-color: beige;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+.header {
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #101010;
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100% ;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+
+}
+
+.logo_container h1{
+	color: white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: "Montserrat";
+	font-size: 32px;
+	font-weight: 200;
+}
+
+.logo_container h1 span{
+	font-weight: 800;
+}
+
+.navigation 
+{
+	float: right;
+	height: 100%; 
+}
+
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px ;
+    
+}
+
+.navigation a:last-child{
+	padding-right: 0;
+}
+
+.navigation li{
+ 	display: table-cell;
+ 	vertical-align: middle;
+ 	list-style: none;
+ 	height: 100%;
+ 	color: white;
+ 	font-size: 16px;
+ 	font-family: "Montserrat";
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.footer {
+	background-color: #24262b;
+	padding: 70px 0;
+}
+
+.f_container{
+	max-width: 1170px; 	
+	margin: auto; 
+}
+
+ul{
+	list-style: none;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap ;
+}
+.footer_col{
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer_col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-family: "Poppins", sans-serif;
+}
+
+
+
+.footer_col ul li a:hover{
+	color:  #ffffff;
+	padding-left: 10px;
+}
+
+.footer_col a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	transition: all 0.3s ease;
+}
+
+.footer_col li{
+	font-size: 1.2em;
+}
+
+.nouscon{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 35%;
+    border: solid black ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: burlywood;
+}
+
+
+.contacter{
+    display: flex;
+    flex-direction: column;
+}
+.contacter2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+
+}
+
+.Titre55{
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    padding-right: 1%;
+}
+
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: auto;
+    width: 75%;
+    border-radius: 12px;
+}
+.button:hover {
+	background-color:#634b30;
+}
+
+.sujet{
+    resize: none;
+}
+
+.reati{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.realipo{
+    background-color: beige;
+}
+
+.cont{
+    background-color: beige;
+}
+
+.imgrea{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.textrea{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -8%;
+    margin-right: -9%;
+}
+.textsrea{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4.5%;
+    margin-right: -6.5%;
+}
+
+.imgrea2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-right: -2%;
+}
+
+.textrea2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -8%;
+    margin-right: -9%;
+}
+.textsrea2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -4.5%;
+    margin-right: -6.5%;
+    padding-bottom: 3%;
+}
+
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.couleur_back{
+	background-color: beige;
+    overflow-x: hidden;
+}
+
+.aligné_ {
+	display: flex;
+	align-items: center;
+	padding-top: 2%;
+	padding-bottom: 10%;
+    margin: auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.bigus{
+	display: flex;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding: 5%;
+	text-align: center;
+	padding-bottom: 15%;
+
+}
+
+.ph_aligné{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left	:-5%;
+	margin-right: -3%;
+	
+}
+
+.bigus_2{
+	font-size: 2em;
+	display: flex;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 3%;
+	margin-left: 5%;
+}
